@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.bg {
+	background-image: url("../img/businessman.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.header {
+	height: 40%;
+}
+.container {
+	height: 55%;
+	display: flex;
+	flex-flow: column wrap; /* flex-direction flex-wrap */
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.botao {
+	align-self: center;
+}
+
+.startup {
+	align-self: center;
+}
+
+h1 {
+   color: aqua; 
+}
